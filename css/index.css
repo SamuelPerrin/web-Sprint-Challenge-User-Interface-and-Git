@@ -78,7 +78,9 @@ header {
 	align-items: baseline;
 	margin:1rem;
 }
-
+#freeway {
+	margin-bottom:1rem;
+}
 .topnav {
 		display:flex;
 		justify-content: space-around;
@@ -195,4 +197,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page*/
+#jumbo-about {
+	margin-bottom:1rem;
+}
+.top-content-about {
+	margin:1rem;
+}
+.learn {
+	text-decoration:none;
+	color:black;
+	border:2px solid black;
+	text-align:center;
+	border-radius:5px;
+	padding:0.5rem 1rem;
 }
