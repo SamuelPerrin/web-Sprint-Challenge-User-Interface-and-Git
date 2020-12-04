@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+header {
+	display:flex;
+	justify-content: flex-start;
+	height:5rem;
+	align-items: baseline;
+	margin:1rem;
+}
+
+#freeway {
+	margin-bottom:1rem;
+}
+
+.topnav {
+		display:flex;
+		justify-content: space-around;
+		width:80vw;
+
+}
+
+.topnav a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +108,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +136,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+	background-color:teal;
+}
+
+#box2 {
+	background-color:gold;
+}
+
+#box3 {
+	background-color:cadetblue;
+}
+
+#box4 {
+	background-color:coral;
+}
+
+#box5 {
+	background-color:crimson;
+}
+
+#box6 {
+	background-color:forestgreen;
+}
+
+#box7 {
+	background-color:darkorchid;
+}
+
+#box8 {
+	background-color:hotpink;
+}
+
+#box9 {
+	background-color:indigo;
+}
+
+#box10 {
+	background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +209,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About page*/
+#jumbo-about {
+	margin-bottom:1rem;
+}
+
+.top-content-about {
+	margin:1rem;
+	border-bottom: 1px dashed black;
+}
+
+.top-content-about  p{
+	margin-bottom:1.5rem;
+}
+
+.gallery {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 45vw;
+}
+
+.card {
+	display:flex;
+	flex-flow: column nowrap;
+	align-items:baseline;
+	width:20vw;
+	margin:1rem;
+	border-bottom: 1px dashed black;
+}
+
+.card img, .card p, .card a {
+	margin-bottom:1rem;
+}
+
+.card .learn {
+	text-decoration:none;
+	color:black;
+	border:2px solid black;
+	text-align:center;
+	border-radius:5px;
+	padding:0.5rem 1rem;
+}
+
+.card .learn:hover {
+	background:black;
+	color:white;
+}
+
+.bottom-content-about {
+	margin:1rem 1rem 2rem 1rem;
 }
