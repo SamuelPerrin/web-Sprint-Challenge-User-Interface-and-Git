@@ -206,11 +206,41 @@ footer nav a {
 .top-content-about {
 	margin:1rem;
 }
-.learn {
+hr {
+	border: 1px dashed black;
+}
+.gallery {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 45vw;
+}
+.card {
+	display:flex;
+	flex-flow: column nowrap;
+	align-items:baseline;
+	width:20vw;
+	margin:1rem;
+}
+.card img, .card p, .card a {
+	margin-bottom:1rem;
+}
+.card-rule {
+	width:100%;
+	margin-bottom:1rem;
+}
+.card .learn {
 	text-decoration:none;
 	color:black;
 	border:2px solid black;
 	text-align:center;
 	border-radius:5px;
 	padding:0.5rem 1rem;
+}
+.card .learn:hover {
+	background:black;
+	color:white;
+}
+.bottom-content-about {
+	margin:1rem 1rem 2rem 1rem;
 }
