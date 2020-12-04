@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a set of HTML tags that give information about the meaning of content inside those tags. For instance, the semantic <address> element communicates to the browser that the information in that tag contains an address or other contact information. This differs from non-semantic HTML, which is used to group content for the purpose of formatting and style rather than to say anything about what that content means.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The biggest difference between `display: block;` and `display: inline;` is that block-level elements don't share a line with other elements while inline elements do if there is room. Inline elements also do not respect the `height` property in the way that block elements do.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a valuable tool for developers working in a team because it handles version control--allowing the project to be restored to past versions if necessary. It also allows multiple developers to work on different parts of the same project at the same time, allowing their changes to be merged into the main branch later.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -51,7 +61,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
@@ -93,7 +103,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout.
 
 ## Stretch Problems
 
@@ -101,4 +111,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property
