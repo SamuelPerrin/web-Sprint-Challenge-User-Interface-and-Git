@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+	display:flex;
+	justify-content: flex-start;
+	height:5rem;
+	align-items: baseline;
+}
+header h1 {
+	font-size:3rem;
+	font-weight:bold;
+}
+.topnav {
+		display:flex;
+		justify-content: space-around;
+		width:80vw;
+
+}
+.topnav a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
