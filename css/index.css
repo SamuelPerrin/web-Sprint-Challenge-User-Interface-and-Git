@@ -78,15 +78,18 @@ header {
 	align-items: baseline;
 	margin:1rem;
 }
+
 #freeway {
 	margin-bottom:1rem;
 }
+
 .topnav {
 		display:flex;
 		justify-content: space-around;
 		width:80vw;
 
 }
+
 .topnav a {
 	text-decoration:none;
 	color:black;
@@ -138,30 +141,39 @@ header {
 #box1 {
 	background-color:teal;
 }
+
 #box2 {
 	background-color:gold;
 }
+
 #box3 {
 	background-color:cadetblue;
 }
+
 #box4 {
 	background-color:coral;
 }
+
 #box5 {
 	background-color:crimson;
 }
+
 #box6 {
 	background-color:forestgreen;
 }
+
 #box7 {
 	background-color:darkorchid;
 }
+
 #box8 {
 	background-color:hotpink;
 }
+
 #box9 {
 	background-color:indigo;
 }
+
 #box10 {
 	background-color:dodgerblue;
 }
@@ -199,36 +211,41 @@ footer nav a {
     text-decoration: none;
 }
 
+
 /*About page*/
 #jumbo-about {
 	margin-bottom:1rem;
 }
+
 .top-content-about {
 	margin:1rem;
+	border-bottom: 1px dashed black;
 }
-hr {
-	border: 1px dashed black;
+
+.top-content-about  p{
+	margin-bottom:1.5rem;
 }
+
 .gallery {
 	display:flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	width: 45vw;
 }
+
 .card {
 	display:flex;
 	flex-flow: column nowrap;
 	align-items:baseline;
 	width:20vw;
 	margin:1rem;
+	border-bottom: 1px dashed black;
 }
+
 .card img, .card p, .card a {
 	margin-bottom:1rem;
 }
-.card-rule {
-	width:100%;
-	margin-bottom:1rem;
-}
+
 .card .learn {
 	text-decoration:none;
 	color:black;
@@ -237,10 +254,12 @@ hr {
 	border-radius:5px;
 	padding:0.5rem 1rem;
 }
+
 .card .learn:hover {
 	background:black;
 	color:white;
 }
+
 .bottom-content-about {
 	margin:1rem 1rem 2rem 1rem;
 }
